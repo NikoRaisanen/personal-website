@@ -1,5 +1,6 @@
 import './App.css';
 import logo from './logo.svg';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -37,6 +38,10 @@ function App() {
         </div>
 
       </header>
+      <body>
+        <Projects className="projects"/>
+      </body>
+      
     </div>
   );
 }

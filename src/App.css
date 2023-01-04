@@ -14,6 +14,14 @@
     width: 200px;
 }
 
-.social-icon {
-    
+body {
+    background-color: #282c34;
+}
+
+body .projects-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
