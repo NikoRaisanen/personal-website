@@ -2,10 +2,12 @@ import './App.css';
 import logo from './logo.svg';
 import Projects from './components/Projects';
 import Socials from './components/Socials';
+import ParticlesBackground from './components/ParticlesBackground';
 
 function App() {
   return (
     <div className="App">
+    <ParticlesBackground/>
       {/* TODO: add slowly animated bg to header element */}
       <header className="App-header">
         <div id="header-text">
