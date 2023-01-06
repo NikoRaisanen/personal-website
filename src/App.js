@@ -1,6 +1,7 @@
 import './App.css';
 import logo from './logo.svg';
 import Projects from './components/Projects';
+import Socials from './components/Socials';
 
 function App() {
   return (
@@ -25,22 +26,9 @@ function App() {
         TODO: Add svg element into each list item
         TODO: Remove bullet points from list items
         */}
-        <div id="socials-bar">
-            <li className="social-icon">
-                <a href='xyz.com'/>
-            </li>
-            <li className="social-icon">
-                <a href='xyz.com'/>
-            </li>
-            <li className="social-icon">
-                <a href='xyz.com'/>
-            </li>
-        </div>
-
       </header>
-      <body>
-        <Projects className="projects"/>
-      </body>
+      <Projects className="projects"/>
+      <Socials/>
       
     </div>
   );

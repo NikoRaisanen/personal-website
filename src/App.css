@@ -25,3 +25,12 @@ body .projects-container {
     align-items: center;
     justify-content: center;
 }
+
+ul {
+    list-style-type: none;
+    display: block;
+}
+
+/* li::marker {
+    list-style-type: none;
+} */
