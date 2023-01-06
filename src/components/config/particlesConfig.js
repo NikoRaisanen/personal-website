@@ -195,7 +195,7 @@ const particlesConfig = {
         }
       },
       "color": {
-        "value": "#ffffff",
+        "value": "#FFFFFF",
         "animation": {
           "h": {
             "count": 0,
@@ -308,7 +308,7 @@ const particlesConfig = {
         },
         "random": false,
         "size": false,
-        "speed": 5,
+        "speed": 1,
         "spin": {
           "acceleration": 0,
           "enable": false
@@ -374,11 +374,14 @@ const particlesConfig = {
           "enable": false,
           "minimumValue": 1
         },
-        "value": 3,
+        "value": {
+            "min": 1,
+            "max": 2
+        },
         "animation": {
           "count": 0,
           "enable": false,
-          "speed": 90,
+          "speed": 10,
           "decay": 0,
           "sync": false,
           "destroy": "none",
@@ -386,8 +389,11 @@ const particlesConfig = {
         }
       },
       "stroke": {
-        "width": 0,
-        "opacity": 1
+        "width": 1,
+        "color": {
+            "value": "#2A9BBF",
+        },
+        "opacity": 0.5
       },
       "zIndex": {
         "random": {
@@ -467,7 +473,7 @@ const particlesConfig = {
               ]
             },
             "number": {
-              "value": 0
+              "value": 1
             },
             "collisions": {
               "enable": false
@@ -478,7 +484,7 @@ const particlesConfig = {
                 "max": 1
               },
               "animation": {
-                "enable": true,
+                "enable": false,
                 "speed": 0.7,
                 "sync": false,
                 "startValue": "max",
@@ -491,7 +497,7 @@ const particlesConfig = {
             "size": {
               "value": {
                 "min": 1,
-                "max": 2
+                "max": 5
               },
               "animation": {
                 "enable": true,
@@ -570,8 +576,8 @@ const particlesConfig = {
         }
       },
       "wobble": {
-        "distance": 5,
-        "enable": false,
+        "distance": 1,
+        "enable": true,
         "speed": {
           "angle": 50,
           "move": 10
