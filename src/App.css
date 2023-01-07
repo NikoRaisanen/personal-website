@@ -7,7 +7,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   text-align: center;
-  color: white;
+  color: #e0fbfc;
+  /* position: absolute;
+  z-index: 1; */
 }
 
 #header-pic {
@@ -19,7 +21,7 @@ body {
 }
 
 body .projects-container {
-    color: white;
+    /* color: white; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,6 +32,39 @@ ul {
     list-style-type: none;
     display: block;
 }
+
+.projects-container {
+    padding-top: 15vh;
+}
+
+/* .fade-container {
+    opacity: 0.5;
+    background: linear-gradient(to bottom, transparent 0%, black 100%);
+    background-color: #263238;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 125vh;
+} */
+
+/* .main-container {
+    background-color: #15171e;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 100vh; */
+    /* left: 0; */
+    /* right: 0; */
+    /* bottom: 0; */
+    /* overflow: visible; */
+/* } */
+
+/* #tsparticles {
+    opacity: 1;
+
+} */
 
 /* li::marker {
     list-style-type: none;

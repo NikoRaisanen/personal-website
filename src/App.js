@@ -22,15 +22,17 @@ function App() {
             <p>My intro here</p>
             <p>My intro here</p>
         </div>
-        
         {/*
         TODO: Add appropriate links to anchor tags
         TODO: Add svg element into each list item
         TODO: Remove bullet points from list items
         */}
       </header>
-      <Projects className="projects"/>
-      <Socials/>
+      {/* <div className="fade-container">fade</div> */}
+      <div className="main-container">
+        <Projects className="projects"/>
+        <Socials/>
+      </div>
       
     </div>
   );
