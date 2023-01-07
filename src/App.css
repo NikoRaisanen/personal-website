@@ -52,22 +52,63 @@
 .gallery-list li {
     display: inline;
     flex-wrap: wrap;
+    position: relative;
+}
+
+.gallery-list a {
+    color: inherit;
 }
 
 .circle {
-    height: 60px;
-    width: 60px;
-    background-color: white;
+    height: 59px;
+    width: 59px;
+    background-color: #e0fbfc;
     border-radius: 50%;
     text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 10px;
+    margin: 20px;
+    padding: 20px;
+    /* box-shadow: 0 0 0 3px #e78267; */
+    /* box-shadow: 0 0 0 5px inset, 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 1s; */
+    /* border: 5px red; */
 }
+
+/* .circle:hover {
+    box-shadow: 0 0 0 1px inset, 0 0 5px grey, 0 0 20px grey inset;
+    box-shadow: 0 0 0 100px inset, 0 0 5px grey;
+    transition: box-shadow 1s;
+} */
 
 .circle img {
     padding-top: 5px;
 }
+
+.gallery-text {
+    position: absolute;
+    color: rgb(251, 251, 251);
+    text-shadow: 1px 1px 1px black;
+    pointer-events: none;
+}
+
+.overlay {
+    opacity: 0.5;
+    transition: opacity 1s;
+    position: absolute;
+    /* background: linear-gradient(to top, transparent 0%, black 100%); */
+    background-color: black;
+    top: 19.5px;
+    left: 19.5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.overlay:hover {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+
 /* .fade-container {
     opacity: 0.5;
     background: linear-gradient(to bottom, transparent 0%, black 100%);

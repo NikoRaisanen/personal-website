@@ -10,6 +10,7 @@ function App() {
     <div className="App">
     <ParticlesBackground/>
       {/* TODO: add slowly animated bg to header element */}
+      {/* TODO: make text animated */}
       <header className="App-header">
         <div id="header-text">
             <h1>Niko Raisanen</h1>
@@ -32,9 +33,8 @@ function App() {
       {/* <div className="fade-container">fade</div> */}
       <div className="main-container">
         <Projects className="projects"/>
-        <Socials/>
         <Contributions className="projects"/>
-
+        <Socials/>
       </div>
       
     </div>

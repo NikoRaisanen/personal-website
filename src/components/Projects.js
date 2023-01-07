@@ -13,9 +13,17 @@ const Projects = () => {
                 {/* TODO: Create first project here, then abstract out to component */}
                 <ul className="gallery-list">
                     <li>
+                    <a href='xyz.com'>
+                    <div className='overlay'></div>
                         <div className="circle">
-                            <img src={group} alt="project"/>
+                                
+                                <span className="gallery-text">
+                                    this is my text!
+                                </span>
+                                <img src={group} alt="project"/>
+                            
                         </div>
+                        </a>
                     </li>
                     <li>
                         <div className="circle">
