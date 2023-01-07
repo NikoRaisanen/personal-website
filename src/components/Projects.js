@@ -6,12 +6,12 @@ import smiley from '../svg/smiley.svg';
 
 const Projects = () => {
     return (
-        <div className="projects-container">
+        <div className="gallery-container">
             <h2>Projects</h2>
             {/* TODO: refine the hr tag to be more minimalist */}
-            <div className="projects">
+            <div className="gallery">
                 {/* TODO: Create first project here, then abstract out to component */}
-                <ul className="projects-list">
+                <ul className="gallery-list">
                     <li>
                         <div className="circle">
                             <img src={group} alt="project"/>

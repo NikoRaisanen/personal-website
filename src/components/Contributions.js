@@ -1,17 +1,33 @@
 import React from 'react';
-import logo from '../logo.svg'
+import bug from '../svg/bug.svg';
+import pencil from '../svg/pencil.svg';
+import shield from '../svg/shield.svg';
 
 const Contributions = () => {
     return (
-        <div className="contributions-container">
+        <div className="gallery-container">
             <h2>Contributions</h2>
             {/* TODO: refine the hr tag to be more minimalist */}
             <hr/>
-            <div className="contributions">
-                {/* TODO: Create first project here, then abstract out to component */}
-                <div className="proj1">
-                    <img src={logo} alt="project"/>
-                </div>
+            <div className="gallery">
+            <ul className="gallery-list">
+                    <li>
+                        <div className="circle">
+                            <img src={shield} alt="contribution"/>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="circle">
+                            <img src={bug} alt="contribution"/>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <div className="circle">
+                            <img src={pencil} alt="contribution"/>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     )

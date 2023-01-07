@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import Projects from './components/Projects';
 import Socials from './components/Socials';
 import ParticlesBackground from './components/ParticlesBackground';
+import Contributions from './components/Contributions';
 
 function App() {
   return (
@@ -32,6 +33,8 @@ function App() {
       <div className="main-container">
         <Projects className="projects"/>
         <Socials/>
+        <Contributions className="projects"/>
+
       </div>
       
     </div>
