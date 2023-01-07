@@ -13,13 +13,20 @@ const Projects = () => {
                 {/* TODO: Create first project here, then abstract out to component */}
                 <ul className="projects-list">
                     <li>
-                        <img src={group} alt="project"/>
+                        <div className="circle">
+                            <img src={group} alt="project"/>
+                        </div>
                     </li>
                     <li>
-                        <img src={play} alt="project"/>
+                        <div className="circle">
+                            <img src={play} alt="project"/>
+                        </div>
+                        
                     </li>
                     <li>
-                        <img src={smiley} alt="project"/>
+                        <div className="circle">
+                            <img src={smiley} alt="project"/>
+                        </div>
                     </li>
                 </ul>
                     
