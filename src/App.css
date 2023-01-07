@@ -28,13 +28,28 @@ body .projects-container {
     justify-content: center;
 }
 
-ul {
+.socials-list {
     list-style-type: none;
     display: block;
 }
 
+.projects {
+    text-align: left;
+}
+
 .projects-container {
     padding-top: 15vh;
+}
+
+.projects-list {
+    list-style-type: none;
+    text-align: left;
+    display: inline-block;
+    padding-left: 0px;
+}
+
+.projects-list li {
+    display: inline;
 }
 
 /* .fade-container {
