@@ -18,7 +18,7 @@ const Projects = () => {
                         <div className="circle">
                                 
                                 <span className="gallery-text">
-                                    this is my text!
+                                    ML Image Recognition
                                 </span>
                                 <img src={group} alt="project"/>
                             
