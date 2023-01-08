@@ -91,18 +91,25 @@
     left: 0;
     color: rgb(251, 251, 251);
     text-shadow: 1px 1px 1px black;
-    pointer-events: none;
     -webkit-text-stroke: 1px black;
     font-weight: 800;
-
+    opacity: 0;
+    transition: opacity 1s;
+    transition-timing-function: ease-in-out;
 }
 
-.overlay {
-    opacity: 0.5;
+/* .gallery-text:hover {
+    opacity: 1;
     transition: opacity 1s;
+} */
+
+.overlay {
+    /* opacity: 0.8; */
+    transition: opacity 1s;
+    transition-timing-function: ease-in-out;
     position: absolute;
     /* background: linear-gradient(to top, transparent 0%, black 100%); */
-    background-color: black;
+    background-color: #010c2cbb; 
     top: 19.5px;
     left: 19.5px;
     width: 100px;
@@ -110,11 +117,42 @@
     border-radius: 50%;
 }
 
-.overlay:hover {
+/* .overlay:hover {
     opacity: 0;
     transition: opacity 1s;
+} */
+
+/* a:hover .gallery-text {
+    opacity: 1;
+    transition: opacity 1s;
+} */
+
+a:hover .gallery-text {
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out;
 }
 
+img {
+    opacity: 0.8;
+    transition: opacity 0.5s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+a:hover img {
+    opacity: 0;
+    transition: opacity 0.5;
+    transition-timing-function: ease-in-out;
+}
+
+a:hover .overlay {
+    opacity: 0;
+    transition: opacity 1s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out;
+}
 
 /* .fade-container {
     opacity: 0.5;
