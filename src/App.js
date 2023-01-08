@@ -1,5 +1,5 @@
 import './App.css';
-import logo from './logo.svg';
+import pfp from './svg/pfp.png';
 import Projects from './components/Projects';
 import Socials from './components/Socials';
 import ParticlesBackground from './components/ParticlesBackground';
@@ -17,7 +17,7 @@ function App() {
             <h2>Full-Stack Developer and AppSec Engineer</h2>
         </div>
 
-        <img src={logo} id="header-pic" alt="headshot"/>
+        <img src={pfp} id="header-pic" alt="headshot"/>
         
         <div id="intro">
             <p>My intro here</p>
