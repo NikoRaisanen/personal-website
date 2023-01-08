@@ -10,31 +10,39 @@ const Projects = () => {
             <h2>Projects</h2>
             {/* TODO: refine the hr tag to be more minimalist */}
             <div className="gallery">
-                {/* TODO: Create first project here, then abstract out to component */}
                 <ul className="gallery-list">
                     <li>
-                    <a href='xyz.com'>
-                    <div className='overlay'></div>
-                        <div className="circle">
-                                
+                        <a href="https://github.com/NikoRaisanen/AWS-Rekognition-App" target="_blank" rel="noreferrer">
+                        <div className='overlay'/>
+                            <div className="circle">
                                 <span className="gallery-text">
                                     ML Image Recognition
                                 </span>
                                 <img src={group} alt="project"/>
-                            
                         </div>
                         </a>
                     </li>
                     <li>
-                        <div className="circle">
-                            <img src={play} alt="project"/>
+                        <a href="https://github.com/NikoRaisanen/clip-captain" target="_blank" rel="noreferrer">
+                        <div className='overlay'/>
+                            <div className="circle">
+                                <span className="gallery-text">
+                                    Youtube Automation
+                                </span>
+                                <img src={play} alt="project"/>
                         </div>
-                        
+                        </a>
                     </li>
                     <li>
-                        <div className="circle">
-                            <img src={smiley} alt="project"/>
+                        <a href="https://github.com/NikoRaisanen/twitter-sentiment-analysis" target="_blank" rel="noreferrer">
+                        <div className='overlay'/>
+                            <div className="circle">
+                                <span className="gallery-text">
+                                    Sentiment Analysis
+                                </span>
+                                <img src={smiley} alt="project"/>
                         </div>
+                        </a>
                     </li>
                 </ul>
                     

@@ -73,15 +73,20 @@
 }
 
 .gallery-text {
+    max-width: 80px;
+    margin-left: 29px;
     position: absolute;
     top: 10;
     left: 0;
+    text-align: center;
     color: #bddff5;
     text-shadow: 1px 1px 1px black;
     font-weight: 650;
+    font-size: 14px;
     opacity: 0;
     transition: opacity 1s;
     transition-timing-function: ease-in-out;
+    
 }
 
 .overlay {
