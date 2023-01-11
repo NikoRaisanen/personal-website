@@ -13,16 +13,16 @@ function App() {
       {/* TODO: make text animated */}
       <header className="App-header">
         <div id="header-text">
-            <h1>Niko Raisanen</h1>
-            <h2>Full-Stack Developer and AppSec Engineer</h2>
+            <h1 id="main-header">NIKO RAISANEN</h1>
+            {/* <h5>Full-Stack Developer and AppSec Engineer</h5> */}
         </div>
 
         <img src={pfp} id="header-pic" alt="headshot"/>
         
         <div id="intro">
-            <p>My intro here</p>
-            <p>My intro here</p>
-            <p>My intro here</p>
+            <p>Full-Stack Developer and AppSec Engineer</p>
+            <p>More cool stuff here</p>
+            <p>I like fishing</p>
         </div>
         {/*
         TODO: Add appropriate links to anchor tags
