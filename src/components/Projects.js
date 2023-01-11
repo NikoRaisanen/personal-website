@@ -4,10 +4,12 @@ import group from '../svg/group.svg';
 import play from '../svg/play.svg';
 import smiley from '../svg/smiley.svg';
 
+// TODO: Make gallery animations faster
 const Projects = () => {
     return (
         <div className="gallery-container">
             <h2>Projects</h2>
+            <div className='underline'/>
             {/* TODO: refine the hr tag to be more minimalist */}
             <div className="gallery">
                 <ul className="gallery-list">

@@ -6,7 +6,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   text-align: center;
-  color: #a9dcfe;
+  color: #FFF15C;
 }
 
 #header-pic {
@@ -126,4 +126,12 @@ a:hover .overlay {
     transition: opacity 1s;
     transition-delay: 0.5s;
     transition-timing-function: ease-in-out;
+}
+
+.underline {
+    position: relative;
+    width: 150px;
+    height: 2px;
+    background-color: #414466;
+    border-radius: 10px;
 }

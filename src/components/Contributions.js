@@ -7,6 +7,7 @@ const Contributions = () => {
     return (
         <div className="gallery-container">
             <h2>Contributions</h2>
+            <div className='underline'/>
             {/* TODO: refine the hr tag to be more minimalist */}
             <hr/>
             <div className="gallery">
