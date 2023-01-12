@@ -20,7 +20,7 @@ function App() {
         <img src={pfp} id="header-pic" alt="headshot"/>
         
         <div id="intro">
-            <p>Full-Stack Developer and AppSec Engineer</p>
+            <p style={{'font-weight': 'bold'}}>Full-Stack Developer and AppSec Engineer</p>
             <p>More cool stuff here</p>
             <p>I like fishing</p>
         </div>

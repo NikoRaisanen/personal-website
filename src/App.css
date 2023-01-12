@@ -73,7 +73,7 @@
 .circle {
     height: 59px;
     width: 59px;
-    background-color: #717171;
+    background-color: #99cde0b4;
     border-radius: 50%;
     text-align: center;
     margin: 20px;
@@ -96,13 +96,13 @@
     font-weight: 650;
     font-size: 14px;
     opacity: 0;
-    transition: opacity 1s;
+    transition: opacity 0.25s;
     transition-timing-function: ease-in-out;
     
 }
 
 .overlay {
-    transition: opacity 1s;
+    transition: opacity 0.5s;
     transition-timing-function: ease-in-out;
     position: absolute;
     background-color: #99cde0b4; 
@@ -115,21 +115,21 @@
 
 a:hover .gallery-text {
     opacity: 1;
-    transition: opacity 1s;
-    transition-delay: 0.5s;
+    transition: opacity 0.5s;
+    transition-delay: 0.25s;
     transition-timing-function: ease-in-out;
 }
 
 img {
     opacity: 0.8;
     transition: opacity 0.5s;
-    transition-delay: 0.5s;
+    transition-delay: 0.25s;
     transition-timing-function: ease-in-out;
 }
 
 a:hover img {
     opacity: 0;
-    transition: opacity 0.5;
+    transition: opacity 0.25s;
     transition-timing-function: ease-in-out;
 }
 
