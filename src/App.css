@@ -50,6 +50,7 @@
 }
 
 .gallery-list {
+    /* opacity: 0.5; */
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -59,6 +60,10 @@
     padding-left: 0px;
     width: 100%;
 }
+
+/* .gallery-layer {
+    opacity: 0.5;
+} */
 
 .gallery-list li {
     display: inline;
@@ -73,7 +78,10 @@
 .circle {
     height: 200px;
     width: 200px;
-    background-color: #99cde0b4;
+    /* background-color: rgba(79, 80, 113, 0.6); */
+    /* background-color: rgba(94, 79, 113, 0.6); */
+    /* background-color: rgba(52, 43, 62, 0.6); */
+    background-color: rgba(52, 43, 62, 0.6);
     border-radius: 50%;
     text-align: center;
     margin: 20px;
@@ -81,20 +89,22 @@
 }
 
 .circle img {
-    padding-top: 5px;
+    padding-top: 30px;
 }
 
 .gallery-text {
-    max-width: 80px;
-    margin-left: 29px;
+    max-width: 175px;
+    margin-left: 55px;
+    margin-top: 110px;
     position: absolute;
-    top: 10;
+    top: 0;
     left: 0;
     text-align: center;
-    color: #bddff5;
+    /* color: #bddff5; */
+    color: #837ba2;
     text-shadow: 1px 1px 1px black;
     font-weight: 650;
-    font-size: 14px;
+    font-size: 20px;
     opacity: 0;
     transition: opacity 0.25s;
     transition-timing-function: ease-in-out;
@@ -102,11 +112,12 @@
 }
 
 .overlay {
-    transition: opacity 0.5s;
+    transition: opacity 0.25s;
     transition-timing-function: ease-in-out;
     position: absolute;
     /* background-color: #99cde0b4;  */
-    background-color: rgba(183, 184, 210, 0.845);
+    background-color: #464d68;
+    opacity: .845;
     top: 20px;
     left: 20px;
     width: 240px;
@@ -136,8 +147,8 @@ a:hover img {
 
 a:hover .overlay {
     opacity: 0;
-    transition: opacity 1s;
-    transition-delay: 0.5s;
+    transition: opacity 0.5s;
+    transition-delay: 0;
     transition-timing-function: ease-in-out;
 }
 
