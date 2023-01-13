@@ -71,8 +71,8 @@
 }
 
 .circle {
-    height: 59px;
-    width: 59px;
+    height: 200px;
+    width: 200px;
     background-color: #99cde0b4;
     border-radius: 50%;
     text-align: center;
@@ -105,11 +105,12 @@
     transition: opacity 0.5s;
     transition-timing-function: ease-in-out;
     position: absolute;
-    background-color: #99cde0b4; 
-    top: 19.5px;
-    left: 19.5px;
-    width: 100px;
-    height: 100px;
+    /* background-color: #99cde0b4;  */
+    background-color: rgba(183, 184, 210, 0.845);
+    top: 20px;
+    left: 20px;
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
 }
 
