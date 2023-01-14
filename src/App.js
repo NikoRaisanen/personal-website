@@ -18,9 +18,10 @@ function App() {
         </div>
 
         <img src={pfp} id="header-pic" alt="headshot"/>
+        <Socials/>
         
         <div id="intro">
-            <p style={{'font-weight': 'bold'}}>Full-Stack Developer and AppSec Engineer</p>
+            <p className="headline">Full-Stack Developer and AppSec Engineer</p>
             <p>More cool stuff here</p>
             <p>I like fishing</p>
         </div>
@@ -34,7 +35,7 @@ function App() {
       <div className="main-container">
         <Projects className="projects"/>
         <Contributions className="projects"/>
-        <Socials/>
+        {/* <Socials/> */}
       </div>
       
     </div>
