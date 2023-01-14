@@ -20,9 +20,10 @@
 }
 
 #main-header {
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 52px;
     font-weight: lighter;
-    letter-spacing: 50px;
+    letter-spacing: 20px;
 }
 
 /* #intro {

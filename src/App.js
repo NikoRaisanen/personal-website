@@ -25,17 +25,10 @@ function App() {
             <p>More cool stuff here</p>
             <p>I like fishing</p>
         </div>
-        {/*
-        TODO: Add appropriate links to anchor tags
-        TODO: Add svg element into each list item
-        TODO: Remove bullet points from list items
-        */}
       </header>
-      {/* <div className="fade-container">fade</div> */}
       <div className="main-container">
         <Projects className="projects"/>
         <Contributions className="projects"/>
-        {/* <Socials/> */}
       </div>
       
     </div>
