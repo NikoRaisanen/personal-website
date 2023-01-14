@@ -4,11 +4,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: 'Comfortaa', sans-serif;
   font-weight: lighter;
   font-size: calc(10px + 2vmin);
   text-align: center;
   color: #b7b8d2;
+}
+
+.App-header, .gallery-container {
+    font-family: 'Comfortaa', sans-serif;
+    color: #837ba2;
 }
 
 #main-header {
@@ -17,9 +21,9 @@
     letter-spacing: 50px;
 }
 
-#intro {
+/* #intro {
     color: #837ba2;
-}
+} */
 
 #header-pic {
     width: 200px;
@@ -28,7 +32,9 @@
 }
 
 .gallery-container {
-    color: #a9dcfe;
+    /* color: #a9dcfe; */
+    /* font-family: 'Urbanist', sans-serif; */
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,6 +45,7 @@
 .socials-list {
     list-style-type: none;
     display: block;
+    border-radius: 100px;
 }
 
 .gallery {
@@ -61,14 +68,11 @@
     width: 100%;
 }
 
-/* .gallery-layer {
-    opacity: 0.5;
-} */
-
 .gallery-list li {
     display: inline;
     flex-wrap: wrap;
     position: relative;
+    margin: 20px;
 }
 
 .gallery-list a {
@@ -93,21 +97,24 @@
 }
 
 .gallery-text {
+    line-height: 35px;
     max-width: 175px;
     margin-left: 55px;
-    margin-top: 110px;
+    margin-top: 100px;
     position: absolute;
     top: 0;
     left: 0;
     text-align: center;
     /* color: #bddff5; */
     color: #FAF9F6;
+    /* letter-spacing: 3px; */
     text-shadow: 1px 1px 1px black;
     font-weight: 650;
     font-size: 20px;
     opacity: 0;
     transition: opacity 0.25s;
     transition-timing-function: ease-in-out;
+    
     
 }
 
@@ -154,8 +161,13 @@ a:hover .overlay {
 
 .underline {
     position: relative;
-    width: 150px;
+    width: 250px;
     height: 2px;
     background-color: #414466;
     border-radius: 10px;
+}
+
+.sw {
+    margin-left: 55px;
+    margin-top: 90px;
 }

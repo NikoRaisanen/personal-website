@@ -8,8 +8,6 @@ const Contributions = () => {
         <div className="gallery-container">
             <h2>Contributions</h2>
             <div className='underline'/>
-            {/* TODO: refine the hr tag to be more minimalist */}
-            <hr/>
             <div className="gallery">
             <ul className="gallery-list">
                 <li>
@@ -27,7 +25,7 @@ const Contributions = () => {
                     <a href="https://github.com/NikoRaisanen/Portswigger-Labs" target="_blank" rel="noreferrer">
                     <div className='overlay'/>
                         <div className="circle">
-                            <span className="gallery-text">
+                            <span className="gallery-text sw">
                                 Offensive Security Writeups
                             </span>
                             <img src={bug} alt="project"/>
