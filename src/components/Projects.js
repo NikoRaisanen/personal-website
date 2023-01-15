@@ -1,8 +1,7 @@
 import React from 'react';
-import logo from '../logo.svg';
-import group from '../svg/group.svg';
-import play from '../svg/play.svg';
-import smiley from '../svg/smiley.svg';
+import rekognition from '../svg/rekognition.png';
+import sentiment from '../svg/sentiment.png';
+import youtube from '../svg/youtube-automation.png';
 
 // TODO: Make gallery animations faster
 const Projects = () => {
@@ -15,12 +14,12 @@ const Projects = () => {
                 <ul className="gallery-list">
                     <li>
                         <a href="https://github.com/NikoRaisanen/AWS-Rekognition-App" target="_blank" rel="noreferrer">
-                        <div className='overlay'/>
-                            <div className="circle">
+                        <div className='overlay gallery-layer'/>
+                            <div className="circle gallery-layer">
                                 <span className="gallery-text">
                                     ML Image Recognition
                                 </span>
-                                <img src={group} alt="project"/>
+                                <img src={rekognition} height="150" width="150" alt="project"/>
                         </div>
                         </a>
                     </li>
@@ -31,7 +30,7 @@ const Projects = () => {
                                 <span className="gallery-text">
                                     Youtube Automation
                                 </span>
-                                <img src={play} alt="project"/>
+                                <img src={youtube} alt="project" height="150" width="150"/>
                         </div>
                         </a>
                     </li>
@@ -42,7 +41,7 @@ const Projects = () => {
                                 <span className="gallery-text">
                                     Sentiment Analysis
                                 </span>
-                                <img src={smiley} alt="project"/>
+                                <img src={sentiment} height="150" width="150" alt="project"/>
                         </div>
                         </a>
                     </li>

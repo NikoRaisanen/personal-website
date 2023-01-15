@@ -18,23 +18,16 @@ function App() {
         </div>
 
         <img src={pfp} id="header-pic" alt="headshot"/>
+        <Socials/>
         
         <div id="intro">
-            <p style={{'font-weight': 'bold'}}>Full-Stack Developer and AppSec Engineer</p>
-            <p>More cool stuff here</p>
-            <p>I like fishing</p>
+            <p className="headline">Full-Stack Developer and AppSec Engineer</p>
+            <p>I have many titles - Software Engineer, AppSec Engineer, Fisherman, but first and foremost, I am a creative problem solver.</p>
         </div>
-        {/*
-        TODO: Add appropriate links to anchor tags
-        TODO: Add svg element into each list item
-        TODO: Remove bullet points from list items
-        */}
       </header>
-      {/* <div className="fade-container">fade</div> */}
       <div className="main-container">
         <Projects className="projects"/>
         <Contributions className="projects"/>
-        <Socials/>
       </div>
       
     </div>
