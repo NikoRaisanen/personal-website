@@ -22,8 +22,7 @@ function App() {
         
         <div id="intro">
             <p className="headline">Full-Stack Developer and AppSec Engineer</p>
-            <p>More cool stuff here</p>
-            <p>I like fishing</p>
+            <p>I have many titles - Software Engineer, AppSec Engineer, Fisherman, but first and foremost, I am a creative problem solver.</p>
         </div>
       </header>
       <div className="main-container">

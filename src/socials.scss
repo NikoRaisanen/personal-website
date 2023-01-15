@@ -1,8 +1,8 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 $timing        : 265ms;
-$iconColor     : #ff003c;
-$accent        : #c648c8;
+$iconColor     : #8800ff91;
+$accent        : #905ba1; // change thisfor top right gradient
 $grape         : #7b00e0;
 $orchid        : #ae31d9;
 
@@ -12,14 +12,15 @@ $orchid        : #ae31d9;
     -webkit-transform: scale($size);
 }
 
-body {
-    background-color: rgba($iconColor, 0.05);
-}
+// body {
+//     background-color: rgba($iconColor, 0.05);
+// }
 
 .social-container {
     width: 400px;
     // margin: 40vh auto;
     text-align: center;
+    margin-top: 0px;
 }
 
 .social-icons {

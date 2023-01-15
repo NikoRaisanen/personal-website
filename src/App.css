@@ -6,12 +6,17 @@
   justify-content: center;
   font-weight: lighter;
   /* font-size: calc(10px + 2vmin); */
+  /* font-size: 20px; */
   text-align: center;
+  /* overflow-wrap: break-word; */
   color: #b7b8d2;
+  padding: 0px 100px 0px 100px;
+  line-height: 1.5;
 }
 
 .headline {
     font-weight: bold;
+    font-size: 25px;
 }
 
 .App-header, .gallery-container {
@@ -26,9 +31,10 @@
     letter-spacing: 20px;
 }
 
-/* #intro {
-    color: #837ba2;
-} */
+#intro {
+    max-width: 600px;
+    font-size: 18px;
+}
 
 #header-pic {
     width: 200px;

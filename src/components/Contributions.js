@@ -1,5 +1,4 @@
 import React from 'react';
-import bug from '../svg/bug.png';
 import paper from '../svg/paper.png';
 import fq from '../svg/fq.png';
 import octocat from '../svg/octocat.png';
