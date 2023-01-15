@@ -1,7 +1,8 @@
 import React from 'react';
-import bug from '../svg/bug.svg';
-import pencil from '../svg/pencil.svg';
-import shield from '../svg/shield.svg';
+import bug from '../svg/bug.png';
+import paper from '../svg/paper.png';
+import fq from '../svg/fq.png';
+import octocat from '../svg/octocat.png';
 
 const Contributions = () => {
     return (
@@ -17,7 +18,7 @@ const Contributions = () => {
                             <span className="gallery-text">
                                 Github Security Advisory
                             </span>
-                            <img src={shield} alt="project"/>
+                            <img src={octocat} height="150" width="150" alt="project"/>
                     </div>
                     </a>
                 </li>
@@ -28,7 +29,7 @@ const Contributions = () => {
                             <span className="gallery-text sw">
                                 Offensive Security Writeups
                             </span>
-                            <img src={bug} alt="project"/>
+                            <img src={paper} height="150" width="150" alt="project"/>
                     </div>
                     </a>
                 </li>
@@ -39,7 +40,7 @@ const Contributions = () => {
                             <span className="gallery-text">
                                 Engineering Blog Post
                             </span>
-                            <img src={pencil} alt="project"/>
+                            <img src={fq} height="150" width="150" alt="project"/>
                     </div>
                     </a>
                 </li>
