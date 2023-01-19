@@ -2,6 +2,9 @@ import React from 'react';
 import paper from '../svg/paper.png';
 import fq from '../svg/fq.png';
 import octocat from '../svg/octocat.png';
+import whiteOcto from '../svg/whiteOcto.png';
+import whiteFQ from '../svg/whiteFQ.png';
+import whitePaper from '../svg/whitePaper.png';
 
 const Contributions = () => {
     return (
@@ -17,7 +20,7 @@ const Contributions = () => {
                             <span className="gallery-text">
                                 Github Security Advisory
                             </span>
-                            <img src={octocat} height="150" width="150" alt="project"/>
+                            <img src={whiteOcto} height="150" width="150" alt="project"/>
                     </div>
                     </a>
                 </li>
@@ -28,7 +31,7 @@ const Contributions = () => {
                             <span className="gallery-text sw">
                                 Offensive Security Writeups
                             </span>
-                            <img src={paper} height="150" width="150" alt="project"/>
+                            <img src={whitePaper} height="150" width="150" alt="project"/>
                     </div>
                     </a>
                 </li>
@@ -39,7 +42,7 @@ const Contributions = () => {
                             <span className="gallery-text">
                                 Engineering Blog Post
                             </span>
-                            <img src={fq} height="150" width="150" alt="project"/>
+                            <img src={whiteFQ} height="150" width="150" alt="project"/>
                     </div>
                     </a>
                 </li>

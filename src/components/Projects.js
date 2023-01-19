@@ -2,6 +2,9 @@ import React from 'react';
 import rekognition from '../svg/rekognition.png';
 import sentiment from '../svg/sentiment.png';
 import youtube from '../svg/youtube-automation.png';
+import whiteFolder from '../svg/whiteFolder.png';
+import whiteYoutube from '../svg/whiteYoutube.png';
+import WhiteTwitter from '../svg/whiteTwitter.png';
 
 // TODO: Make gallery animations faster
 const Projects = () => {
@@ -14,12 +17,12 @@ const Projects = () => {
                 <ul className="gallery-list">
                     <li>
                         <a href="https://github.com/NikoRaisanen/AWS-Rekognition-App" target="_blank" rel="noreferrer">
-                        <div className='overlay gallery-layer'/>
-                            <div className="circle gallery-layer">
+                        <div className='overlay'/>
+                            <div className="circle">
                                 <span className="gallery-text">
                                     ML Image Recognition
                                 </span>
-                                <img src={rekognition} height="150" width="150" alt="project"/>
+                                <img src={whiteFolder} height="150" width="150" alt="project"/>
                         </div>
                         </a>
                     </li>
@@ -30,7 +33,7 @@ const Projects = () => {
                                 <span className="gallery-text">
                                     Youtube Automation
                                 </span>
-                                <img src={youtube} alt="project" height="150" width="150"/>
+                                <img src={whiteYoutube} alt="project" height="150" width="150"/>
                         </div>
                         </a>
                     </li>
@@ -41,7 +44,7 @@ const Projects = () => {
                                 <span className="gallery-text">
                                     Sentiment Analysis
                                 </span>
-                                <img src={sentiment} height="150" width="150" alt="project"/>
+                                <img src={WhiteTwitter} height="150" width="150" alt="project"/>
                         </div>
                         </a>
                     </li>
