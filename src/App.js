@@ -4,8 +4,28 @@ import Projects from './components/Projects';
 import Socials from './components/Socials';
 import ParticlesBackground from './components/ParticlesBackground';
 import Contributions from './components/Contributions';
+import { useEffect, useState } from 'react';
 
 function App() {
+  const [ hasScrolled, setHasScrolled ] = useState(false);
+
+  useEffect(() => {
+    const el = document.getElementsByClassName('App')[0];
+    el.style.height = '100vh';
+    el.style.overflow = 'hidden';
+    window.addEventListener('wheel', handleScroll);
+  }, []);
+
+  const handleScroll = () => {
+    // setHasScrolled(true);
+    const el = document.getElementsByClassName('App')[0];
+    console.log(el.style);
+    el.style.removeProperty('height');
+    el.style.removeProperty('overflow');
+    console.log('yoyo');
+  }
+
+
   return (
     <div className="App">
     <ParticlesBackground/>
@@ -29,7 +49,6 @@ function App() {
         <Projects className="projects"/>
         <Contributions className="projects"/>
       </div>
-      
     </div>
   );
 }
