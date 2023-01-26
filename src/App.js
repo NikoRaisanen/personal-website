@@ -4,25 +4,24 @@ import Projects from './components/Projects';
 import Socials from './components/Socials';
 import ParticlesBackground from './components/ParticlesBackground';
 import Contributions from './components/Contributions';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 
 function App() {
-  const [ hasScrolled, setHasScrolled ] = useState(false);
+  const galleryHead = useRef(null);
 
   useEffect(() => {
     const el = document.getElementsByClassName('App')[0];
     el.style.height = '100vh';
     el.style.overflow = 'hidden';
-    window.addEventListener('wheel', handleScroll);
+    window.addEventListener('wheel', handleScroll, { once: true, passive: false });
   }, []);
 
-  const handleScroll = () => {
-    // setHasScrolled(true);
+  const handleScroll = (e) => {
+    console.log('event', e)
     const el = document.getElementsByClassName('App')[0];
-    console.log(el.style);
     el.style.removeProperty('height');
     el.style.removeProperty('overflow');
-    console.log('yoyo');
+    galleryHead.current.scrollIntoView({ behavior: 'smooth', block: 'end' });
   }
 
 
@@ -45,7 +44,7 @@ function App() {
             <p>I have many titles - Software Engineer, AppSec Engineer, Fisherman, but first and foremost, I am a creative problem solver.</p>
         </div>
       </header>
-      <div className="main-container">
+      <div className="main-container" ref={galleryHead}>
         <Projects className="projects"/>
         <Contributions className="projects"/>
       </div>
