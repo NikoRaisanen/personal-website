@@ -1,3 +1,7 @@
+.App {
+    margin-bottom: 100px;
+}
+
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -14,6 +18,10 @@
   line-height: 1.5;
 }
 
+.projects {
+    height: 100vh;
+    background-color: red;
+}
 .headline {
     font-weight: bold;
     font-size: 25px;
@@ -91,8 +99,8 @@
 }
 
 .circle {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     /* background-color: rgba(79, 80, 113, 0.6); */
     /* background-color: rgba(94, 79, 113, 0.6); */
     /* background-color: rgba(52, 43, 62, 0.6); */
@@ -104,7 +112,7 @@
 }
 
 .circle img {
-    padding-top: 30px;
+    padding-top: 5px;
 }
 
 .gallery-text {
@@ -138,8 +146,8 @@
     opacity: .2;
     top: 20px;
     left: 20px;
-    width: 240px;
-    height: 240px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
 }
 

@@ -6,6 +6,14 @@ import ParticlesBackground from './components/ParticlesBackground';
 import Contributions from './components/Contributions';
 import { useEffect, useState, useRef } from 'react';
 
+/*
+TODO:
+
+Can I make this like fullpage.js?
+Sect 1 = Title page
+Sect 2 = Projects
+Sect 3 = Contributions
+*/
 function App() {
   const galleryHead = useRef(null);
 
@@ -21,7 +29,9 @@ function App() {
     const el = document.getElementsByClassName('App')[0];
     el.style.removeProperty('height');
     el.style.removeProperty('overflow');
-    galleryHead.current.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    galleryHead.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    // const h = window.innerHeight;
+    // window.scrollBy(0, h);
   }
 
 
@@ -44,8 +54,10 @@ function App() {
             <p>I have many titles - Software Engineer, AppSec Engineer, Fisherman, but first and foremost, I am a creative problem solver.</p>
         </div>
       </header>
-      <div className="main-container" ref={galleryHead}>
-        <Projects className="projects"/>
+      <div className="main-container">
+        <div className="projects-section" ref={galleryHead}>
+            <Projects className="projects"/>
+        </div>
         <Contributions className="projects"/>
       </div>
     </div>

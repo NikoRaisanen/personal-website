@@ -20,7 +20,7 @@ const Contributions = () => {
                             <span className="gallery-text">
                                 Github Security Advisory
                             </span>
-                            <img src={whiteOcto} height="150" width="150" alt="project"/>
+                            <img src={whiteOcto} height="100" width="100" alt="project"/>
                     </div>
                     </a>
                 </li>
@@ -31,7 +31,7 @@ const Contributions = () => {
                             <span className="gallery-text sw">
                                 Offensive Security Writeups
                             </span>
-                            <img src={whitePaper} height="150" width="150" alt="project"/>
+                            <img src={whitePaper} height="100" width="100" alt="project"/>
                     </div>
                     </a>
                 </li>
@@ -42,7 +42,7 @@ const Contributions = () => {
                             <span className="gallery-text">
                                 Engineering Blog Post
                             </span>
-                            <img src={whiteFQ} height="150" width="150" alt="project"/>
+                            <img src={whiteFQ} height="100" width="100" alt="project"/>
                     </div>
                     </a>
                 </li>

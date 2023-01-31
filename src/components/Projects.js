@@ -22,7 +22,7 @@ const Projects = () => {
                                 <span className="gallery-text">
                                     ML Image Recognition
                                 </span>
-                                <img src={whiteFolder} height="150" width="150" alt="project"/>
+                                <img src={whiteFolder} height="100" width="100" alt="project"/>
                         </div>
                         </a>
                     </li>
@@ -33,7 +33,7 @@ const Projects = () => {
                                 <span className="gallery-text">
                                     Youtube Automation
                                 </span>
-                                <img src={whiteYoutube} alt="project" height="150" width="150"/>
+                                <img src={whiteYoutube} alt="project" height="100" width="100" style={{'padding-top': '2px'}}/>
                         </div>
                         </a>
                     </li>
@@ -44,7 +44,7 @@ const Projects = () => {
                                 <span className="gallery-text">
                                     Sentiment Analysis
                                 </span>
-                                <img src={WhiteTwitter} height="150" width="150" alt="project"/>
+                                <img src={WhiteTwitter} height="100" width="100" alt="project"/>
                         </div>
                         </a>
                     </li>
