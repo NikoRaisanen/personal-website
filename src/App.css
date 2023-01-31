@@ -117,9 +117,9 @@
 
 .gallery-text {
     line-height: 35px;
-    max-width: 175px;
-    margin-left: 55px;
-    margin-top: 100px;
+    max-width: 100px;
+    margin-left: 43px;
+    margin-top: 43px;
     position: absolute;
     top: 0;
     left: 0;
@@ -129,7 +129,7 @@
     /* letter-spacing: 3px; */
     text-shadow: 1px 1px 1px black;
     font-weight: 650;
-    font-size: 20px;
+    font-size: 14px;
     opacity: 0;
     transition: opacity 0.25s;
     transition-timing-function: ease-in-out;
@@ -184,9 +184,4 @@ a:hover .overlay {
     height: 2px;
     background-color: #414466;
     border-radius: 10px;
-}
-
-.sw {
-    margin-left: 55px;
-    margin-top: 90px;
 }

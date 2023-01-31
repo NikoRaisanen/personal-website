@@ -28,7 +28,7 @@ const Contributions = () => {
                     <a href="https://github.com/NikoRaisanen/Portswigger-Labs" target="_blank" rel="noreferrer">
                     <div className='overlay'/>
                         <div className="circle">
-                            <span className="gallery-text sw">
+                            <span className="gallery-text">
                                 Offensive Security Writeups
                             </span>
                             <img src={whitePaper} height="100" width="100" alt="project"/>
