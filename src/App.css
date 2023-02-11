@@ -1,5 +1,11 @@
+/* TODO: Make sure website looks good for devices less than 360px wide */
+/* Focus #1: Text size should be in rem */
+
+
 .App {
     margin-bottom: 100px;
+    width:100%;
+    overflow-x:hidden;
 }
 
 .App-header {
@@ -14,8 +20,13 @@
   text-align: center;
   /* overflow-wrap: break-word; */
   color: #b7b8d2;
-  padding: 0px 100px 0px 100px;
+  padding-left: 10%;
+  padding-right: 10%;
   line-height: 1.5;
+}
+
+.social-container {
+    padding-top: 25px;
 }
 
 .projects {
@@ -34,9 +45,9 @@
 
 #main-header {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 52px;
+    font-size: 48px;
     font-weight: lighter;
-    letter-spacing: 20px;
+    letter-spacing: 10px;
 }
 
 #intro {
@@ -59,12 +70,6 @@
     align-items: center;
     justify-content: center;
     padding-top: 15vh;
-}
-
-.socials-list {
-    list-style-type: none;
-    display: block;
-    border-radius: 100px;
 }
 
 .gallery {
@@ -185,3 +190,13 @@ a:hover .overlay {
     background-color: #414466;
     border-radius: 10px;
 }
+
+@media only screen and (max-width: 400px) {
+    #main-header {
+        font-size: 36px;
+        font-weight: bold;
+    }
+    #header-pic {
+        width: 190px;
+    }
+  }
