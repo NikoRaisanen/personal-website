@@ -5,6 +5,7 @@ import Socials from './components/Socials';
 import ParticlesBackground from './components/ParticlesBackground';
 import Contributions from './components/Contributions';
 import { useEffect, useState, useRef } from 'react';
+import Footer from './components/Footer';
 
 /*
 TODO:
@@ -54,7 +55,7 @@ function App() {
             {/* <p>I have many titles - Software Engineer, AppSec Engineer, Fisherman, but first and foremost, I am a creative problem solver.</p> */}
             {/* <p>Hi there, I'm Niko! I'm a software engineer with a foundation in security engineering, always eager to dive in and bring my ideas to life through code. I enjoy brainstorming architectural decisions to come up with the most efficient solution on both the infrastructure and code levels. When I'm not in front of a keyboard you can find me fishing or snowboarding</p> */}
             {/* <p>Hi there, I'm Niko! I'm a software engineer with a background in security engineering, always eager to dive in and bring my ideas to life through code</p> */}
-            <p>Hello! I'm Niko, a software engineer with a solid background in security engineering. I have a passion for turning my ideas into tangible solutions through code and am always eager to dive into a new challenge.</p>
+            <p>Hello! I'm Niko, a software engineer with a background in security engineering. I have a passion for turning my ideas into tangible solutions through code and am always eager to dive into a new challenge.</p>
         </div>
       </header>
       <div className="main-container">
@@ -63,6 +64,7 @@ function App() {
         </div>
         <Contributions className="projects"/>
       </div>
+      <Footer/>
     </div>
   );
 }
