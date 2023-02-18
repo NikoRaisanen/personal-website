@@ -1,7 +1,4 @@
 import React from 'react';
-import rekognition from '../svg/rekognition.png';
-import sentiment from '../svg/sentiment.png';
-import youtube from '../svg/youtube-automation.png';
 import whiteFolder from '../svg/whiteFolder.png';
 import whiteYoutube from '../svg/whiteYoutube.png';
 import WhiteTwitter from '../svg/whiteTwitter.png';
@@ -33,7 +30,7 @@ const Projects = () => {
                                 <span className="gallery-text">
                                     Youtube Automation
                                 </span>
-                                <img src={whiteYoutube} alt="project" height="100" width="100" style={{'padding-top': '2px'}}/>
+                                <img src={whiteYoutube} alt="project" height="100" width="100"/>
                         </div>
                         </a>
                     </li>

@@ -22,17 +22,18 @@ function App() {
     const el = document.getElementsByClassName('App')[0];
     el.style.height = '100vh';
     el.style.overflow = 'hidden';
-    window.addEventListener('wheel', handleScroll, { once: true, passive: false });
+    window.addEventListener('wheel', handleScroll, { passive: false });
   }, []);
 
   const handleScroll = (e) => {
-    console.log('event', e)
+    // if scrollwheel up, do nothing
+    if (e.deltaY < 0) return;
+
+    window.removeEventListener('wheel', handleScroll)
     const el = document.getElementsByClassName('App')[0];
     el.style.removeProperty('height');
     el.style.removeProperty('overflow');
     galleryHead.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    // const h = window.innerHeight;
-    // window.scrollBy(0, h);
   }
 
 
