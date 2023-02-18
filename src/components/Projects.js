@@ -1,7 +1,7 @@
 import React from 'react';
-import whiteFolder from '../svg/whiteFolder.png';
-import whiteYoutube from '../svg/whiteYoutube.png';
-import WhiteTwitter from '../svg/whiteTwitter.png';
+import whiteFolder from '../images/whiteFolder.png';
+import whiteYoutube from '../images/whiteYoutube.png';
+import WhiteTwitter from '../images/whiteTwitter.png';
 
 // TODO: Make gallery animations faster
 const Projects = () => {

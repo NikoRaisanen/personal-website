@@ -1,7 +1,7 @@
 import React from 'react';
-import whiteOcto from '../svg/whiteOcto.png';
-import whiteFQ from '../svg/whiteFQ.png';
-import whitePaper from '../svg/whitePaper.png';
+import whiteOcto from '../images/whiteOcto.png';
+import whiteFQ from '../images/whiteFQ.png';
+import whitePaper from '../images/whitePaper.png';
 
 const Contributions = () => {
     return (

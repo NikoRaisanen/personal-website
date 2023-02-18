@@ -1,5 +1,6 @@
 import React from 'react';
 import './../footer.css';
+import download from '../images/download.svg';
 
 const Footer = () => {
     return (
@@ -8,10 +9,14 @@ const Footer = () => {
     <div class="footer-content">
 
       <h3>Download Resume</h3>
+      <a href='#'>
+        <img src={download} alt="download resume" className='download-icon'/>
+      </a>
+      
 
       <p>blah blah blah a few more things about me here</p>
 
-      <ul class="socials">
+      {/* <ul class="socials">
 
         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
 
@@ -23,7 +28,7 @@ const Footer = () => {
 
         <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
 
-      </ul>
+      </ul> */}
 
     </div>
 
