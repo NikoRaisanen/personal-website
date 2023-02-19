@@ -91,7 +91,6 @@ footer {
     float: none;
   }
   .footer-menu ul {
-    display: flex;
     margin-top: 10px;
     margin-bottom: 20px;
     text-align: center;
@@ -100,4 +99,13 @@ footer {
 
 .footer-text {
   padding-top: 20px;
+}
+
+.download-icon {
+  transition: stroke 0.5s;
+}
+
+.download-anchor:hover .download-icon {
+  transition: stroke 0.5s;
+  stroke: rgb(148, 145, 248);
 }
