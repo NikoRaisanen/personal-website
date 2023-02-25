@@ -40,8 +40,6 @@ function App() {
   return (
     <div className="App">
     <ParticlesBackground/>
-      {/* TODO: add slowly animated bg to header element */}
-      {/* TODO: make text animated */}
       <header className="App-header">
         <div id="header-text">
             <h1 id="main-header">NIKO RAISANEN</h1>

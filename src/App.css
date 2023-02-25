@@ -1,9 +1,4 @@
-/*
-TODO: Make social icons same ton of blue as my shirt
-*/
-
 .App {
-    /* margin-bottom: 100px; */
     width:100%;
     overflow-x:hidden;
 }
@@ -15,10 +10,7 @@ TODO: Make social icons same ton of blue as my shirt
   align-items: center;
   justify-content: center;
   font-weight: lighter;
-  /* font-size: calc(10px + 2vmin); */
-  /* font-size: 20px; */
   text-align: center;
-  /* overflow-wrap: break-word; */
   color: #b7b8d2;
   padding-left: 10%;
   padding-right: 10%;
@@ -59,8 +51,6 @@ TODO: Make social icons same ton of blue as my shirt
 }
 
 .gallery-container {
-    /* color: #a9dcfe; */
-    /* font-family: 'Urbanist', sans-serif; */
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -78,7 +68,6 @@ TODO: Make social icons same ton of blue as my shirt
 }
 
 .gallery-list {
-    /* opacity: 0.5; */
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -103,9 +92,6 @@ TODO: Make social icons same ton of blue as my shirt
 .circle {
     height: 100px;
     width: 100px;
-    /* background-color: rgba(79, 80, 113, 0.6); */
-    /* background-color: rgba(94, 79, 113, 0.6); */
-    /* background-color: rgba(52, 43, 62, 0.6); */
     background-color: rgba(52, 43, 62, 0.6);
     border-radius: 50%;
     text-align: center;
@@ -113,22 +99,16 @@ TODO: Make social icons same ton of blue as my shirt
     padding: 20px;
 }
 
-/* .circle img {
-    padding-top: 0px;
-} */
-
 .gallery-text {
     line-height: 25px;
     max-width: 100px;
-    margin-left: 43px;
+    margin-left: 42px;
     margin-top: 55px;
     position: absolute;
     top: 0;
     left: 0;
     text-align: center;
-    /* color: #bddff5; */
     color: #FAF9F6;
-    /* letter-spacing: 3px; */
     text-shadow: 1px 1px 1px black;
     font-weight: 650;
     font-size: 14px;
@@ -143,7 +123,6 @@ TODO: Make social icons same ton of blue as my shirt
     transition: opacity 0.25s;
     transition-timing-function: ease-in-out;
     position: absolute;
-    /* background-color: #99cde0b4;  */
     background-color: #464d68;
     opacity: .2;
     top: 20px;
@@ -199,11 +178,7 @@ a:hover .overlay {
 }
 
 .bottom-circle {
-    /* position: absolute;
-    bottom: 0; */
-    /* right: 0%; */
     align-items: center;
-    /* transform: translate(-30%, -50%); */
     width: 100%;
     height: 50%;
     border-radius: 50%;
