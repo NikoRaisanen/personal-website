@@ -28,7 +28,7 @@ const Contributions = () => {
                             <span className="gallery-text">
                                 Offensive Security Writeups
                             </span>
-                            <img src={whitePaper} height="100" width="100" alt="project" style={{'padding-left': '3px'}}/>
+                            <img src={whitePaper} height="100" width="100" alt="project" style={{'paddingLeft': '3px'}}/>
                     </div>
                     </a>
                 </li>

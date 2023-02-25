@@ -3,13 +3,11 @@ import whiteFolder from '../images/whiteFolder.png';
 import whiteYoutube from '../images/whiteYoutube.png';
 import WhiteTwitter from '../images/whiteTwitter.png';
 
-// TODO: Make gallery animations faster
 const Projects = () => {
     return (
         <div className="gallery-container">
             <h2>Projects</h2>
             <div className='underline'/>
-            {/* TODO: refine the hr tag to be more minimalist */}
             <div className="gallery">
                 <ul className="gallery-list">
                     <li>

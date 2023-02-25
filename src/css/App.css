@@ -31,20 +31,20 @@
     color: #837ba2;
 }
 
-#main-header {
+.main-header {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 48px;
     font-weight: lighter;
     letter-spacing: 10px;
 }
 
-#intro {
+.intro {
     max-width: 600px;
     font-size: 18px;
     line-height: 1.75;
 }
 
-#header-pic {
+.header-pic {
     width: 200px;
     border-radius: 50%;
     background-color: rgba(168, 140, 198, 0.05);
@@ -168,11 +168,11 @@ a:hover .overlay {
 }
 
 @media only screen and (max-width: 400px) {
-    #main-header {
+    .main-header {
         font-size: 36px;
         font-weight: bold;
     }
-    #header-pic {
+    .header-pic {
         width: 190px;
     }
 }
