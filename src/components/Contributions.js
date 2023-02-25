@@ -1,10 +1,7 @@
 import React from 'react';
-import paper from '../svg/paper.png';
-import fq from '../svg/fq.png';
-import octocat from '../svg/octocat.png';
-import whiteOcto from '../svg/whiteOcto.png';
-import whiteFQ from '../svg/whiteFQ.png';
-import whitePaper from '../svg/whitePaper.png';
+import whiteOcto from '../images/whiteOcto.png';
+import whiteFQ from '../images/whiteFQ.png';
+import whitePaper from '../images/whitePaper.png';
 
 const Contributions = () => {
     return (
@@ -31,7 +28,7 @@ const Contributions = () => {
                             <span className="gallery-text">
                                 Offensive Security Writeups
                             </span>
-                            <img src={whitePaper} height="100" width="100" alt="project"/>
+                            <img src={whitePaper} height="100" width="100" alt="project" style={{'paddingLeft': '3px'}}/>
                     </div>
                     </a>
                 </li>

@@ -1,18 +1,13 @@
 import React from 'react';
-import rekognition from '../svg/rekognition.png';
-import sentiment from '../svg/sentiment.png';
-import youtube from '../svg/youtube-automation.png';
-import whiteFolder from '../svg/whiteFolder.png';
-import whiteYoutube from '../svg/whiteYoutube.png';
-import WhiteTwitter from '../svg/whiteTwitter.png';
+import whiteFolder from '../images/whiteFolder.png';
+import whiteYoutube from '../images/whiteYoutube.png';
+import WhiteTwitter from '../images/whiteTwitter.png';
 
-// TODO: Make gallery animations faster
 const Projects = () => {
     return (
         <div className="gallery-container">
             <h2>Projects</h2>
             <div className='underline'/>
-            {/* TODO: refine the hr tag to be more minimalist */}
             <div className="gallery">
                 <ul className="gallery-list">
                     <li>
@@ -33,7 +28,7 @@ const Projects = () => {
                                 <span className="gallery-text">
                                     Youtube Automation
                                 </span>
-                                <img src={whiteYoutube} alt="project" height="100" width="100" style={{'padding-top': '2px'}}/>
+                                <img src={whiteYoutube} alt="project" height="100" width="100"/>
                         </div>
                         </a>
                     </li>

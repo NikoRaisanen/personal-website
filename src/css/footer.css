@@ -1,0 +1,49 @@
+footer {
+  margin-top: 400px;
+  background: #1a1a21fc;
+  box-shadow: 0px 10px 40px 0px #242126;
+  height: auto;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+
+.footer-content {
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+  margin-bottom: 0px;
+}
+
+.footer-content p {
+  max-width: 600px;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+
+.footer-text {
+  padding-top: 20px;
+}
+
+.download-anchor {
+  transition: stroke 0.5s;
+  margin-top: 5px;
+}
+
+.download-anchor:hover .download-icon {
+  transition: stroke 0.5s;
+  stroke: rgb(148, 145, 248);
+}
