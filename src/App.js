@@ -46,7 +46,7 @@ function App() {
         <Socials/>
         
         <div className="intro">
-            <p>Hello! I'm Niko, a software engineer with a background in security engineering. I have a passion for turning my ideas into tangible solutions through code and am always eager to dive into a new challenge.</p>
+            <p>Hello, I'm Niko, an Application Security Engineer with a robust coding background. My passion lies in transforming ideas into secure, code-driven solutions. I thrive on challenges, relishing the opportunity to secure complex services as a SME while actively shipping code.</p>
         </div>
       </header>
       <div className="main-container">
