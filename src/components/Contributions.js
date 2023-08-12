@@ -14,8 +14,8 @@ const Contributions = () => {
                     <a href="https://github.com/advisories?query=credit%3ANikoRaisanen" target="_blank" rel="noreferrer">
                     <div className='overlay'/>
                         <div className="circle">
-                            <span className="gallery-text">
-                                Github Security Advisory
+                            <span className="gallery-text" style={{top: -5}}>
+                                Github Security Advisories
                             </span>
                             <img src={whiteOcto} height="100" width="100" alt="project"/>
                     </div>
@@ -25,7 +25,7 @@ const Contributions = () => {
                     <a href="https://github.com/NikoRaisanen/Portswigger-Labs" target="_blank" rel="noreferrer">
                     <div className='overlay'/>
                         <div className="circle">
-                            <span className="gallery-text">
+                            <span className="gallery-text" style={{top: -5}}>
                                 Offensive Security Writeups
                             </span>
                             <img src={whitePaper} height="100" width="100" alt="project" style={{'paddingLeft': '3px'}}/>
@@ -36,7 +36,7 @@ const Contributions = () => {
                     <a href="https://floqast.com/engineering-blog/post/integrating-siem-with-ci-cd/" target="_blank" rel="noreferrer">
                     <div className='overlay'/>
                         <div className="circle">
-                            <span className="gallery-text">
+                            <span className="gallery-text"  style={{top: 10}}>
                                 Engineering Blog Post
                             </span>
                             <img src={whiteFQ} height="100" width="100" alt="project"/>
