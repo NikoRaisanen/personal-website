@@ -41,6 +41,9 @@ footer {
 .download-anchor {
   transition: stroke 0.5s;
   margin-top: 5px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .download-anchor:hover .download-icon {
