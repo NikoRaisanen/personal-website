@@ -6,9 +6,9 @@ const Footer = () => {
 
     <footer>
       <div className="footer-content">
-      <a href='#' className='download-anchor' style={{
+      <a href='https://niko-public.s3.amazonaws.com/NikoResumeAugust2023C.pdf' target='_blank' className='download-anchor' style={{
         marginBottom: '-30px'
-      }}>
+      }} rel="noreferrer">
         <p className='download-header' style={{
           color: 'white',
           fontSize: '32px',
@@ -25,7 +25,7 @@ const Footer = () => {
           </p>
         </a>
         <p className='footer-text'>
-        I find great joy in leveraging my security and coding skills to craft incredible and secure products. My approach involves taking a holistic view of the project and making informed architectural decisions that are aligned with the company's overall vision and goals. Whether working at a strategic level or as an individual contributor, I'm passionate about delivering elegant and effective solutions that exceed expectations.
+        I find great joy in leveraging my security and coding skills to craft secure products that users love. My approach involves taking a holistic view of the project and making informed architectural and code-level decisions that align with the company's overall vision and goals. Whether working at a strategic level or as an individual contributor, I'm passionate about delivering elegant and effective solutions that exceed expectations.
         </p>
       </div>
     </footer>
