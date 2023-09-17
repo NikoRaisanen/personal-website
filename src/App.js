@@ -7,11 +7,6 @@ import Contributions from './components/Contributions';
 import { useEffect, useRef } from 'react';
 import Footer from './components/Footer';
 
-/*
-TODO:
-
-Upload resume to S3
-*/
 function App() {
   const galleryHead = useRef(null);
 
@@ -46,7 +41,7 @@ function App() {
         <Socials/>
         
         <div className="intro">
-            <p>Hello, I'm Niko, an Application Security Engineer with a robust coding background. My passion lies in transforming ideas into secure, code-driven solutions. I thrive on challenges, relishing the opportunity to secure complex services as a SME while actively shipping code.</p>
+            <p>Hello, I'm Niko, a Software Engineer with a background in Application Security. With expertise in designing and implementing elegant solutions, I thrive on tackling complex problems that lack a clear path forward</p>
         </div>
       </header>
       <div className="main-container">
