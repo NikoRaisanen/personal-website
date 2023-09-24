@@ -11,11 +11,11 @@ const Contributions = () => {
             <div className="gallery">
             <ul className="gallery-list">
                 <li>
-                    <a href="https://github.com/advisories?query=credit%3ANikoRaisanen" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/NikoRaisanen" target="_blank" rel="noreferrer">
                     <div className='overlay'/>
                         <div className="circle">
-                            <span className="gallery-text" style={{top: -5}}>
-                                Github Security Advisories
+                            <span className="gallery-text" style={{top: 10, left:23}}>
+                                Open<br/>Source
                             </span>
                             <img src={whiteOcto} height="100" width="100" alt="project"/>
                     </div>
