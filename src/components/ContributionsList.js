@@ -1,54 +1,52 @@
 import React from 'react';
 import '../css/Contributions.css';
-import whiteFQ from '../images/whiteFQ.png';
-import whiteFolder from '../images/whiteFolder.png';
+import placeholderImg from '../images/whiteFQ.png';
+const ContributionCard = ({ repo }) => {
+    return (
+      <div className="contribution-card">
+        <div className="contribution-image-container">
+          <img src={repo.imageUrl} alt={repo.name} className="contribution-image" />
+          <div className="contribution-overlay">
+            <span>View Contribution</span>
+          </div>
+        </div>
+        <div className="contribution-info">
+          <h3 className="contribution-title">{repo.name}</h3>
+          <p className="contribution-description">{repo.description}</p>
+          <div className="contribution-link-container"> {/* Container for the link */}
+            <a href={repo.link} target="_blank" rel="noopener noreferrer" className="contribution-link">
+              {repo.link}
+            </a>
+          </div>
+        </div>
+      </div>
+    );
+  };
 
-// Individual Contribution component
-const Contribution = ({ title, link, description, imageUrl }) => {
-  return (
-    <div className="contribution">
-      <a href={link} target="_blank" rel="noopener noreferrer">
-        <img src={imageUrl} alt={title} className="contribution-image" />
-      </a>
-      <h3>{title}</h3>
-      <p>{description}</p>
-      <a href={link} target="_blank" rel="noopener noreferrer" className="contribution-link">
-        {link}
-      </a>
-    </div>
-  );
-};
-
-// Contributions list component
 const ContributionsList = () => {
-  const contributions = [
+  const repos = [
     {
-      title: 'Open Source Contribution 1',
-      link: 'https://github.com/user/repo1',
-      description: 'This is a description of the open source contribution...',
-      imageUrl: whiteFQ,
+      name: "VSCode",
+      link: 'https://github.com/microsoft/vscode',
+      description: 'TBD',
+      imageUrl: placeholderImg,
     },
     {
-      title: 'Open Source Contribution 2',
-      link: 'https://github.com/user/repo2',
-      description: 'This is another description of the open source contribution...',
-      imageUrl: whiteFolder,
+      name: 'Superagent',
+      link: 'https://github.com/ladjs/superagent',
+      description: 'TBD',
+      imageUrl: placeholderImg,
     },
-    // ...add more contributions as needed
   ];
 
   return (
-    <section className="contributions">
+    <section className="contributions-section">
       <h2>Open Source Contributions</h2>
-      {contributions.map((contribution, index) => (
-        <Contribution
-          key={index}
-          title={contribution.title}
-          link={contribution.link}
-          description={contribution.description}
-          imageUrl={contribution.imageUrl}
-        />
-      ))}
+      <div className="contributions-container">
+        {repos.map((repo, index) => (
+          <ContributionCard key={index} repo={repo} />
+        ))}
+      </div>
     </section>
   );
 };
