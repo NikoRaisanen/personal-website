@@ -28,15 +28,52 @@ const ContributionsList = () => {
     {
       name: "VSCode",
       link: 'https://github.com/microsoft/vscode',
-      description: 'TBD',
+      description: 'Added feature that allows terminal title changes for Windows users running WSL and GitBash, shipped in version 1.83.1.',
       imageUrl: placeholderImg,
     },
     {
       name: 'Superagent',
       link: 'https://github.com/ladjs/superagent',
-      description: 'TBD',
+      description: 'Fixed bug where superagent fails to serialize BigInt primitives and sends error in request body. The failure is now handled internally, shipped in version 8.1.0 with 8M+ weekly downloads.',
       imageUrl: placeholderImg,
     },
+    {
+        name: "Prefect",
+        link: 'https://github.com/PrefectHQ/prefect',
+        description: 'TBD',
+        imageUrl: placeholderImg,
+      },
+      {
+        name: 'Aixplora',
+        link: 'https://github.com/NikoRaisanen/aixplora',
+        description: 'TBD',
+        imageUrl: placeholderImg,
+      },
+      {
+        name: 'InstantCoverLetter',
+        link: 'https://instantcoverletter.dev',
+        description: 'TBD',
+        imageUrl: placeholderImg,
+      },
+      {
+        name: 'Github Security Advisories',
+        link: 'https://github.com/advisories?query=credit%3ANikoRaisanen',
+        description: 'TBD',
+        imageUrl: placeholderImg,
+      },
+      {
+        name: 'Offensive Security Writeups',
+        link: 'https://github.com/NikoRaisanen/Portswigger-Labs',
+        description: 'TBD',
+        imageUrl: placeholderImg,
+      },
+      {
+        name: 'Engineering Blog Post',
+        link: 'https://floqast.com/engineering-blog/post/integrating-siem-with-ci-cd/',
+        description: 'TBD',
+        imageUrl: placeholderImg,
+      },
+      
   ];
 
   return (
