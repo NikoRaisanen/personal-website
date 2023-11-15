@@ -6,6 +6,7 @@ import ParticlesBackground from './components/ParticlesBackground';
 import Contributions from './components/Contributions';
 import { useRef } from 'react';
 import Footer from './components/Footer';
+import ContributionsList from './components/ContributionsList';
 
 function App() {
   const galleryHead = useRef(null);
@@ -26,6 +27,7 @@ function App() {
         </div>
       </header>
       <div className="main-container">
+        <ContributionsList/>
         <div className="projects-section" ref={galleryHead}>
             <Projects className="projects"/>
         </div>
