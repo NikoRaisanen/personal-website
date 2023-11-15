@@ -25,7 +25,7 @@ const Footer = () => {
           </p>
         </a>
         <p className='footer-text'>
-        I find great joy in leveraging my security software engineering skillset to deliver scalable and secure solutions that withstand the test of time. With a wide range of foundational skills, I'm able to drive projects to completion and quickly adapt to new technologies and environments.  
+        I find great joy in leveraging my security software engineering skillset to deliver scalable and secure solutions that withstand the test of time. With a wide range of foundational skills and unbounded curiosity, I'm able to drive projects to completion and quickly adapt to new environments and technologies.  
         </p>
       </div>
     </footer>
