@@ -45,7 +45,7 @@ const ContributionsList = () => {
       },
       {
         name: 'Aixplora',
-        link: 'https://github.com/NikoRaisanen/aixplora',
+        link: 'https://github.com/grumpyp/aixplora',
         description: "Added feature that validates openai api keys before they are saved to the user's profile. Bubbled up error messages to the user so they can take appropriate action.",
         imageUrl: placeholderImg,
       },
