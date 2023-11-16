@@ -71,11 +71,6 @@
   position: relative;
 }
 
-.contribution-image {
-  width: 100%;
-  display: block;
-}
-
 .contribution-overlay {
   position: absolute;
   top: 0;
