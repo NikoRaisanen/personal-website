@@ -12,7 +12,8 @@
 }
 
 .contribution-card {
-  background-color: #fff;
+  background: linear-gradient(145deg, #333754, #1c1c2b);
+  color: #ffffff;
   width: 300px;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -20,7 +21,15 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s;
   position: relative;
-  overflow: hidden;
+}
+
+.contribution-title, .contribution-description, .contribution-link {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contribution-link:hover {
+  color: #9abfff;
+  text-decoration: underline;
 }
 
 .contribution-card:hover {
@@ -37,18 +46,8 @@
   padding: 15px;
 }
 
-.contribution-title {
-  margin: 10px 0;
-  color: #333;
-}
-
-.contribution-description {
-  color: #555;
-  font-size: 0.9em;
-}
-
 .contribution-link {
-  color: #1a0dab;
+  color: #c9d1d9;
   text-decoration: none;
   font-size: 0.9em;
   display: block;
@@ -57,7 +56,7 @@
 }
 
 .contribution-link:hover {
-  color: #003366;
+  color: #a8bbd9;
   text-decoration: underline;
 }
 
@@ -92,7 +91,6 @@
 }
 
 .contribution-link-container {
-  background-color: #f8f8f8;
   padding: 8px;
   margin-top: 12px;
   border-top: 2px solid #e1e4e8;
