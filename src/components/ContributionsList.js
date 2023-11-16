@@ -13,7 +13,7 @@ const ContributionCard = ({ repo }) => {
         <div className="contribution-info">
           <h3 className="contribution-title">{repo.name}</h3>
           <p className="contribution-description">{repo.description}</p>
-          <div className="contribution-link-container"> {/* Container for the link */}
+          <div className="contribution-link-container">
             <a href={repo.link} target="_blank" rel="noopener noreferrer" className="contribution-link">
               {repo.link}
             </a>
@@ -40,37 +40,37 @@ const ContributionsList = () => {
     {
         name: "Prefect",
         link: 'https://github.com/PrefectHQ/prefect',
-        description: 'TBD',
+        description: 'Fixed bug that broke deployment of workflows due to arguments being parsed as POSIX on Windows systems.',
         imageUrl: placeholderImg,
       },
       {
         name: 'Aixplora',
         link: 'https://github.com/NikoRaisanen/aixplora',
-        description: 'TBD',
+        description: "Added feature that validates openai api keys before they are saved to the user's profile. Bubbled up error messages to the user so they can take appropriate action.",
         imageUrl: placeholderImg,
       },
       {
         name: 'InstantCoverLetter',
         link: 'https://instantcoverletter.dev',
-        description: 'TBD',
+        description: "Personal project that generates effective cover letters by matching skills in a user's resume with a job description. 50+ active daily users with over 3,000 cover letters generated.",
         imageUrl: placeholderImg,
       },
       {
         name: 'Github Security Advisories',
         link: 'https://github.com/advisories?query=credit%3ANikoRaisanen',
-        description: 'TBD',
+        description: 'Helped Github fine-tune their security advisory database by validating and correcting published advisories.',
         imageUrl: placeholderImg,
       },
       {
         name: 'Offensive Security Writeups',
         link: 'https://github.com/NikoRaisanen/Portswigger-Labs',
-        description: 'TBD',
+        description: 'Published 100+ solutions for the Portswigger Academy pentesting labs spanning topics such as XSS, SSRF, directory traversal, injection attacks, and more!',
         imageUrl: placeholderImg,
       },
       {
         name: 'Engineering Blog Post',
         link: 'https://floqast.com/engineering-blog/post/integrating-siem-with-ci-cd/',
-        description: 'TBD',
+        description: 'Wrote a blog post about integrating SIEM with CI/CD pipelines to automate security monitoring of cloud infrastructure.',
         imageUrl: placeholderImg,
       },
       
