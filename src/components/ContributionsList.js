@@ -78,7 +78,7 @@ const ContributionsList = () => {
 
   return (
     <section className="contributions-section">
-      <h2>Open Source Contributions</h2>
+      <h2 className="section-title">Open Source Contributions</h2>
       <div className="contributions-container">
         {repos.map((repo, index) => (
           <ContributionCard key={index} repo={repo} />
