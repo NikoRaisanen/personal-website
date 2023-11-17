@@ -1,15 +1,11 @@
 import './css/App.css';
 import pfp from './images/pfp.png';
-import Projects from './components/Projects';
 import Socials from './components/Socials';
 import ParticlesBackground from './components/ParticlesBackground';
-import Contributions from './components/Contributions';
-import { useRef } from 'react';
 import Footer from './components/Footer';
+import ContributionsList from './components/ContributionsList';
 
 function App() {
-  const galleryHead = useRef(null);
-
   return (
     <div className="App">
     <ParticlesBackground/>
@@ -26,10 +22,7 @@ function App() {
         </div>
       </header>
       <div className="main-container">
-        <div className="projects-section" ref={galleryHead}>
-            <Projects className="projects"/>
-        </div>
-        <Contributions className="projects"/>
+        <ContributionsList/>
       </div>
       <Footer/>
     </div>
