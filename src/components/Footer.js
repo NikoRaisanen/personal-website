@@ -6,7 +6,7 @@ const Footer = () => {
 
     <footer>
       <div className="footer-content">
-      <a href='https://niko-public.s3.amazonaws.com/NikoResumeAugust2023C.pdf' target='_blank' className='download-anchor' style={{
+      <a href='https://niko-public.s3.amazonaws.com/NikoResumeNov2023.pdf' target='_blank' className='download-anchor' style={{
         marginBottom: '-30px'
       }} rel="noreferrer">
         <p className='download-header' style={{
