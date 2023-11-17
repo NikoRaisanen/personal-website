@@ -92,6 +92,10 @@
   border-top: 2px solid #e1e4e8;
 }
 
+.view-contribution {
+  color: inherit;
+  text-decoration: none;
+}
 .contributions-section h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
