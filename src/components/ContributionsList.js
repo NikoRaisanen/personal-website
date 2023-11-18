@@ -6,10 +6,6 @@ const ContributionCard = ({ repo }) => {
       <div className="contribution-card">
         <div className="contribution-image-container">
         <i
-          style={{
-            fontSize: '100px',
-            color: '#f7981d',
-          }}
           className={repo.faIcon}
         />
           <div className="contribution-overlay">

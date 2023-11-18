@@ -4,6 +4,7 @@
   text-align: center;
   padding: 20px;
   color: #fff;
+  padding-top: 30vh;
 }
 
 .contributions-container {
@@ -15,11 +16,11 @@
   margin: 0 auto;
 }
 
-.contribution-card {
+.contribution-card {  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: linear-gradient(145deg, #333754, #1c1c2b);
+  background: linear-gradient(145deg, rgba(51, 55, 84, 0.7), rgba(28, 28, 43, 0.7));
   color: #ffffff;
   width: 300px;
   margin-bottom: 20px;
@@ -128,4 +129,9 @@
 @keyframes float {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-10px); }
+}
+
+.contribution-image-container i {
+  font-size: 100px;
+  color: rgba(247, 152, 29, 0.85);
 }
