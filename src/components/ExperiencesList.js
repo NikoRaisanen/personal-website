@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import '../css/experience.css';
 
 const experiences = [
@@ -38,16 +38,38 @@ const LinkedInCard = () => {
     );
   };
 
-const ExperienceList = () => {
+  const ExperienceList = () => {
+    const [isVisible, setIsVisible] = useState(false);
+    const listRef = useRef(null);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                setIsVisible(entries[0].isIntersecting)
+            },
+            { threshold: 0.2 }
+        );
+
+        if (listRef.current) {
+            observer.observe(listRef.current);
+        }
+
+        return () => {
+            if (listRef.current) {
+                observer.disconnect();
+            }
+        };
+    }, []);
+
     return (
-        <section className="path-section">
-        <h2 className="section-title">My Path</h2>
-        <div className="experience-list">
-            {experiences.map(experience => (
-                <Experience key={experience.id} {...experience} />
-            ))}
-        <LinkedInCard />
-        </div>
+        <section className={`path-section ${isVisible ? 'is-visible' : ''}`} ref={listRef}>
+            <h2 className="section-title">My Path</h2>
+            <div className="experience-list">
+                {experiences.map(experience => (
+                    <Experience key={experience.id} {...experience} />
+                ))}
+                <LinkedInCard />
+            </div>
         </section>
     );
 };

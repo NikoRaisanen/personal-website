@@ -98,3 +98,14 @@
     background: #005582;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
+
+.path-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 2s ease-out, transform 2s ease-out;
+  }
+  
+  .path-section.is-visible {
+    opacity: 1;
+    transform: none;
+  }

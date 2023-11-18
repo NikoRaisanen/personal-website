@@ -13,7 +13,8 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  margin: 0 auto;
+  padding: 40px;
+  margin: 40px auto;
 }
 
 .contribution-card {  
@@ -134,4 +135,15 @@
 .contribution-image-container i {
   font-size: 100px;
   color: rgba(247, 152, 29, 0.85);
+}
+
+.contributions-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 2s ease-out, transform 2s ease-out;
+}
+
+.contributions-section.is-visible {
+  opacity: 1;
+  transform: none;
 }

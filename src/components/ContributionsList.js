@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import '../css/Contributions.css';
 
 const ContributionCard = ({ repo }) => {
@@ -26,6 +26,27 @@ const ContributionCard = ({ repo }) => {
   };
 
 const ContributionsList = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const listRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+        (entries) => {
+            setIsVisible(entries[0].isIntersecting)
+        },
+        { threshold: 0.2 }
+    );
+
+    if (listRef.current) {
+        observer.observe(listRef.current);
+    }
+
+    return () => {
+        if (listRef.current) {
+            observer.disconnect();
+        }
+    };
+}, []);
   const repos = [
     {
       name: "VSCode",
@@ -87,7 +108,7 @@ const ContributionsList = () => {
   ];
 
   return (
-    <section className="contributions-section">
+    <section className={`contributions-section ${isVisible ? 'is-visible' : ''}`} ref={listRef}>
       <h2 className="section-title">Open Source Contributions</h2>
       <div className="contributions-container">
         {repos.map((repo, index) => (
