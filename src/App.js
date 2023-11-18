@@ -4,6 +4,7 @@ import Socials from './components/Socials';
 import ParticlesBackground from './components/ParticlesBackground';
 import Footer from './components/Footer';
 import ContributionsList from './components/ContributionsList';
+import ExperienceList from './components/ExperiencesList';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         </div>
       </header>
       <div className="main-container">
+        <ExperienceList />
         <ContributionsList/>
       </div>
       <Footer/>
