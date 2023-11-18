@@ -1,16 +1,17 @@
 .experience-list {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 40px;
-        margin: 40px auto;
-        background: rgba(255, 255, 255, 0.05);
-        backdrop-filter: blur(10px);
-        border-radius: 10px;
-        width: 80%;
-        max-width: 1000px;
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
-    }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 30px; 
+  padding: 40px;
+  margin: 40px auto;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  width: 80%;
+  max-width: 1000px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
     
     .experience-card {
         background: #17171b;
@@ -26,7 +27,6 @@
         transition: transform 0.3s ease;
         min-width: 300px;
         max-width: 100%;
-        width: 100%;
     }
     
     .experience-card:hover {
@@ -87,3 +87,14 @@
         left: 50%;
         transform: translateX(-50%);
       }
+
+.linkedin-card {
+    background: #0077b5;
+    color: #fff;
+    text-align: center;
+}
+
+.linkedin-card:hover {
+    background: #005582;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}

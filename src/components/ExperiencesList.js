@@ -26,6 +26,18 @@ const Experience = ({ title, description, year }) => {
     );
 };
 
+const LinkedInCard = () => {
+    return (
+    <div className="experience-card linkedin-card">
+
+      <a style={{textDecoration: 'none'}} href="https://www.linkedin.com/in/niko-raisanen/" target="_blank" rel="noopener noreferrer">
+        <h3 className="experience-title">Check out my work history on Linkedin</h3>
+    </a>
+        <p className="experience-description">or <a style={{textDecoration: 'none', color: '#9DA5A6'}}target="_blank" rel="noopener noreferrer" href='https://niko-public.s3.amazonaws.com/NikoResumeNov2023.pdf'>download my resume</a></p>
+    </div>
+    );
+  };
+
 const ExperienceList = () => {
     return (
         <section className="path-section">
@@ -34,6 +46,7 @@ const ExperienceList = () => {
             {experiences.map(experience => (
                 <Experience key={experience.id} {...experience} />
             ))}
+        <LinkedInCard />
         </div>
         </section>
     );
