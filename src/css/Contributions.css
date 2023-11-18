@@ -4,7 +4,7 @@
   text-align: center;
   padding: 20px;
   color: #fff;
-  padding-top: 30vh;
+  padding-top: 50vh;
 }
 
 .contributions-container {
@@ -129,7 +129,7 @@
 
 @keyframes float {
   0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+  50% { transform: translateY(-5px); }
 }
 
 .contribution-image-container i {
