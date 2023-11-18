@@ -28,11 +28,14 @@ const Experience = ({ title, description, year }) => {
 
 const ExperienceList = () => {
     return (
+        <section className="path-section">
+        <h2 className="section-title">My Path</h2>
         <div className="experience-list">
             {experiences.map(experience => (
                 <Experience key={experience.id} {...experience} />
             ))}
         </div>
+        </section>
     );
 };
 
