@@ -8,9 +8,11 @@ const ContributionCard = ({ repo }) => {
         <i
           className={repo.faIcon}
         />
+          <a className="view-contribution" target='_blank' href={repo.contributionLink}>
           <div className="contribution-overlay">
-            <a className="view-contribution" target='_blank' href={repo.contributionLink}><span>View Contribution</span></a>
+            <span>View Contribution</span>
           </div>
+          </a>
         </div>
         <div className="contribution-info">
           <h3 className="contribution-title">{repo.name}</h3>
